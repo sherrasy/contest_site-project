@@ -2,6 +2,10 @@ $menu-color: rgb(103, 103, 103);
 $menu-color_hover: rgb(67, 155, 222);
 $menu-font: "Fira Sans",
 sans-serif;
+$menu-font-size: 1em;
+$h1-font-size: 2.5em;
+$pagination-font-size: 1.5em;
+$pagination-color_hover: rgb(0, 83, 146);
 
 .header-container {
 
@@ -33,7 +37,7 @@ sans-serif;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 1em;
+        font-size: $menu-font-size;
         font-family: $menu-font;
 
         &__link1 {
@@ -54,6 +58,52 @@ sans-serif;
         a:hover {
             color: $menu-color_hover;
         }
+    }
+}
 
+
+.nav {
+    margin-top: 2vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+    #h1 {
+        font-family: $menu-font;
+        font-size: $h1-font-size;
+        margin-bottom: 4vh;
+    }
+
+    .pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        border-radius: 21.5px;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+
+        li {
+            display: inline;
+
+
+            a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+                font-family: $menu-font;
+                border-radius: 21.5px;
+                font-size: $pagination-font-size;
+            }
+
+            a:hover {
+                background-color: $pagination-color_hover;
+                color: white;
+            }
+
+            a:active {
+                background-color: $pagination-color_hover;
+                color: white;
+            }
+        }
     }
 }

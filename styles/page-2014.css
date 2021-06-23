@@ -71,4 +71,53 @@
 .header-container__menu a:hover {
   color: #439bde;
 }
+
+.nav {
+  margin-top: 2vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.nav #h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 4vh;
+}
+
+.nav .pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border-radius: 21.5px;
+  -webkit-box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+          box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+}
+
+.nav .pagination li {
+  display: inline;
+}
+
+.nav .pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 21.5px;
+  font-size: 1.5em;
+}
+
+.nav .pagination li a:hover {
+  background-color: #005392;
+  color: white;
+}
+
+.nav .pagination li a:active {
+  background-color: #005392;
+  color: white;
+}
 /*# sourceMappingURL=page-2014.css.map */
