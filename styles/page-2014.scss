@@ -1,7 +1,4 @@
-$menu-color: rgb(103, 103, 103);
-$menu-color_hover: rgb(67, 155, 222);
-$menu-font: "Fira Sans",
-sans-serif;
+@import 'variables.scss';
 
 .header-container {
 
@@ -38,21 +35,21 @@ sans-serif;
 
         &__link1 {
             text-decoration: none;
-            color: $menu-color;
+            color: $dark-grey-color;
         }
 
         &__link2 {
             text-decoration: none;
-            color: $menu-color;
+            color: $dark-grey-color;
         }
 
         &__link3 {
             text-decoration: none;
-            color: $menu-color;
+            color: $dark-grey-color;
         }
 
         a:hover {
-            color: $menu-color_hover;
+            color: $blue-color;
         }
 
     }
