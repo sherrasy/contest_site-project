@@ -30,7 +30,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: $menu-font-size;
+        font-size: $menu-font;
         font-family: $menu-font;
 
         &__link1 {
@@ -63,7 +63,7 @@
 
     #h1 {
         font-family: $menu-font;
-        font-size: $h1-font-size;
+        font-size: $headings-text-font;
         margin-bottom: 4vh;
     }
 
@@ -85,16 +85,16 @@
                 text-decoration: none;
                 font-family: $menu-font;
                 border-radius: 21.5px;
-                font-size: $pagination-font-size;
+                font-size: $main-text-font;
             }
 
             #active {
-                background-color: $pagination-color_hover;
+                background-color: $dark-blue-color;
                 color: white;
             }
 
             a:hover {
-                background-color: $pagination-color_hover;
+                background-color: $dark-blue-color;
                 color: white;
             }
         }
@@ -103,30 +103,44 @@
 
 .page-2014 {
     margin-top: 5vh;
+    display: grid;
+    justify-items: center;
 
     &__icons {
-        display: flex;
-        justify-content: center;
-
-        &__people {
-            margin-right: 5%;
-        }
-
-        &__money {
-            margin-left: 5%;
-        }
-    }
-
-    &__icons-text {
         display: grid;
-        justify-content: center;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-around;
 
         &__people {
-            margin-right: 5%;
+            grid-column: 1/2;
+            display: grid;
+            justify-content: flex-start;
         }
 
         &__money {
-            margin-left: 5%;
+            grid-column: 2/3;
+            display: grid;
+            justify-content: flex-end;
+            margin-top: 2vh;
+        }
+
+        &__people-text {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            display: grid;
+            justify-content: flex-start;
+            margin-left: 14%;
+            font-family: $menu-font;
+        }
+
+        &__money-text {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            display: grid;
+            justify-content: flex-end;
+            margin-right: 7.5%;
+            font-family: $menu-font;
         }
     }
 }
