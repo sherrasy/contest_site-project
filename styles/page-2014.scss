@@ -74,9 +74,20 @@
         border-radius: 21.5px;
         box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
 
+        @media screen and (max-width: 420px) {
+            width: 300px;
+        }
+
+        @media screen and (max-width: 780px) and (min-width: 421px) {
+            width: 400px;
+        }
+
+        @media screen and (min-width: 781px) {
+            width: 600px;
+        }
+
         li {
             display: inline;
-
 
             a {
                 color: black;
@@ -93,6 +104,14 @@
                 color: white;
             }
 
+            #no-active {
+                color: $dark-grey-color;
+            }
+
+            #no-active:hover {
+                background-color: white;
+            }
+
             a:hover {
                 background-color: $dark-blue-color;
                 color: white;
@@ -102,7 +121,7 @@
 }
 
 .page-2014 {
-    margin-top: 3vh;
+    margin-top: 2vh;
     display: grid;
     justify-items: center;
 
@@ -150,7 +169,7 @@
         &__icons {
             display: grid;
             grid-template-columns: 150px 150px;
-            grid-template-rows: 120px 60px;
+            grid-template-rows: 120px 40px;
             justify-content: space-around;
 
             &__people {
