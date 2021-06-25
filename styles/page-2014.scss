@@ -243,4 +243,47 @@
         }
     }
 
+    &__speech {
+        margin-top: 3vh;
+        box-shadow: -10px -14px 36px rgba(78, 55, 55, 0.15);
+        max-width: 85%;
+        padding: 3%;
+
+        @media screen and (min-width: 1024px) {
+            max-width: 65%;
+        }
+
+
+
+        &__img {
+            float: left;
+            shape-outside: circle(50%);
+            clip-path: circle(50%);
+            width: 170px;
+            margin: 0px 20px 0px 0px;
+        }
+
+        &__b-text {
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
+                margin-top: 3%;
+            }
+
+            @media screen and (min-width: 1025px) {
+                margin-top: 5%;
+            }
+
+            font-style: italic;
+            font-family: $menu-font;
+            font-size: 0.9em;
+
+        }
+
+        &__s-text {
+            margin-top: 2%;
+            display: flex;
+            justify-content: flex-end;
+            font-family: $menu-font;
+            font-weight: bold;
+        }
+    }
 }

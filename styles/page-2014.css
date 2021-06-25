@@ -321,4 +321,57 @@
 .page-2014__competition a {
   color: #439bde;
 }
+
+.page-2014__speech {
+  margin-top: 3vh;
+  -webkit-box-shadow: -10px -14px 36px rgba(78, 55, 55, 0.15);
+          box-shadow: -10px -14px 36px rgba(78, 55, 55, 0.15);
+  max-width: 85%;
+  padding: 3%;
+}
+
+@media screen and (min-width: 1024px) {
+  .page-2014__speech {
+    max-width: 65%;
+  }
+}
+
+.page-2014__speech__img {
+  float: left;
+  shape-outside: circle(50%);
+  -webkit-clip-path: circle(50%);
+          clip-path: circle(50%);
+  width: 170px;
+  margin: 0px 20px 0px 0px;
+}
+
+.page-2014__speech__b-text {
+  font-style: italic;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.9em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .page-2014__speech__b-text {
+    margin-top: 3%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .page-2014__speech__b-text {
+    margin-top: 5%;
+  }
+}
+
+.page-2014__speech__s-text {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
 /*# sourceMappingURL=page-2014.css.map */
