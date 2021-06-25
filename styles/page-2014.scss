@@ -95,15 +95,16 @@ $pagination-color_hover: rgb(0, 83, 146);
                 font-size: $pagination-font-size;
             }
 
-            a:hover {
+            #active {
                 background-color: $pagination-color_hover;
                 color: white;
             }
 
-            a:active {
+            a:hover {
                 background-color: $pagination-color_hover;
                 color: white;
             }
         }
     }
+
 }

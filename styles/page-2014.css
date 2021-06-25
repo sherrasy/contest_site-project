@@ -111,12 +111,12 @@
   font-size: 1.5em;
 }
 
-.nav .pagination li a:hover {
+.nav .pagination li #active {
   background-color: #005392;
   color: white;
 }
 
-.nav .pagination li a:active {
+.nav .pagination li a:hover {
   background-color: #005392;
   color: white;
 }
