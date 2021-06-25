@@ -200,7 +200,7 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-left: 14%;
+    margin-left: 12%;
     font-family: "Fira Sans", sans-serif;
   }
   .page-2014__icons__money-text {
@@ -264,7 +264,7 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-left: 14%;
+    margin-left: 18%;
     font-family: "Fira Sans", sans-serif;
   }
   .page-2014__icons__money-text {
@@ -279,7 +279,7 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: 7.5%;
+    margin-right: 9.5%;
     font-family: "Fira Sans", sans-serif;
   }
 }
