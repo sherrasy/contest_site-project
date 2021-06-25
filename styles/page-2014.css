@@ -1,3 +1,5 @@
+/*Colors*/
+/*Fonts*/
 .header-container {
   display: -ms-grid;
   display: grid;
@@ -38,7 +40,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1em;
+  font-size: "Fira Sans", sans-serif;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -69,6 +71,166 @@
 }
 
 .header-container__menu a:hover {
+  color: #439bde;
+}
+
+.nav {
+  margin-top: 2vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.nav #h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: "IBM Plex Sans", sans-serif;
+  margin-bottom: 4vh;
+}
+
+.nav .pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border-radius: 21.5px;
+  -webkit-box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+          box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+}
+
+.nav .pagination li {
+  display: inline;
+}
+
+.nav .pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 21.5px;
+  font-size: "Roboto", sans-serif;
+}
+
+.nav .pagination li #active {
+  background-color: #005392;
+  color: white;
+}
+
+.nav .pagination li a:hover {
+  background-color: #005392;
+  color: white;
+}
+
+.page-2014 {
+  margin-top: 3vh;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.page-2014__icons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px;
+      grid-template-columns: 200px 200px;
+  -ms-grid-rows: 120px 60px;
+      grid-template-rows: 120px 60px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.page-2014__icons__people {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.page-2014__icons__money {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 2vh;
+}
+
+.page-2014__icons__people-text {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 14%;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.page-2014__icons__money-text {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 7.5%;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.competition {
+  max-width: 85%;
+}
+
+.competition__h1 {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #439bde;
+}
+
+.competition__h1-text {
+  margin-top: 2vh;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1em;
+}
+
+.competition__h2 {
+  margin-top: 1.4vh;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.competition__h2-text {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1em;
+}
+
+.competition p {
+  margin-top: 1.2vh;
+}
+
+.competition a {
   color: #439bde;
 }
 /*# sourceMappingURL=page-2014.css.map */
