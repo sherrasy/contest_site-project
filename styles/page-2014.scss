@@ -205,42 +205,42 @@
         }
     }
 
-}
+    &__competition {
+        max-width: 85%;
 
-.competition {
-    max-width: 85%;
+        &__h1 {
+            text-align: center;
+            font-family: $menu-font;
+            font-weight: bold;
+            font-size: 1.3em;
+            color: $blue-color;
+        }
 
-    &__h1 {
-        text-align: center;
-        font-family: $menu-font;
-        font-weight: bold;
-        font-size: 1.3em;
-        color: $blue-color;
+        &__h1-text {
+            margin-top: 2vh;
+            font-family: $menu-font;
+            font-size: 1em;
+        }
+
+        &__h2 {
+            margin-top: 1.4vh;
+            font-family: $menu-font;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        &__h2-text {
+            font-family: $menu-font;
+            font-size: 1em;
+        }
+
+        p {
+            margin-top: 1.2vh;
+        }
+
+        a {
+            color: $blue-color;
+        }
     }
 
-    &__h1-text {
-        margin-top: 2vh;
-        font-family: $menu-font;
-        font-size: 1em;
-    }
-
-    &__h2 {
-        margin-top: 1.4vh;
-        font-family: $menu-font;
-        font-weight: bold;
-        font-size: 1.2em;
-    }
-
-    &__h2-text {
-        font-family: $menu-font;
-        font-size: 1em;
-    }
-
-    p {
-        margin-top: 1.2vh;
-    }
-
-    a {
-        color: $blue-color;
-    }
 }

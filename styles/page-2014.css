@@ -284,11 +284,11 @@
   }
 }
 
-.competition {
+.page-2014__competition {
   max-width: 85%;
 }
 
-.competition__h1 {
+.page-2014__competition__h1 {
   text-align: center;
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
@@ -296,29 +296,29 @@
   color: #439bde;
 }
 
-.competition__h1-text {
+.page-2014__competition__h1-text {
   margin-top: 2vh;
   font-family: "Fira Sans", sans-serif;
   font-size: 1em;
 }
 
-.competition__h2 {
+.page-2014__competition__h2 {
   margin-top: 1.4vh;
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   font-size: 1.2em;
 }
 
-.competition__h2-text {
+.page-2014__competition__h2-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 1em;
 }
 
-.competition p {
+.page-2014__competition p {
   margin-top: 1.2vh;
 }
 
-.competition a {
+.page-2014__competition a {
   color: #439bde;
 }
 /*# sourceMappingURL=page-2014.css.map */
