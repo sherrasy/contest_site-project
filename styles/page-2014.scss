@@ -42,21 +42,21 @@ $pagination-color_hover: rgb(0, 83, 146);
 
         &__link1 {
             text-decoration: none;
-            color: $menu-color;
+            color: $dark-grey-color;
         }
 
         &__link2 {
             text-decoration: none;
-            color: $menu-color;
+            color: $dark-grey-color;
         }
 
         &__link3 {
             text-decoration: none;
-            color: $menu-color;
+            color: $dark-grey-color;
         }
 
         a:hover {
-            color: $menu-color_hover;
+            color: $blue-color;
         }
     }
 }
