@@ -1,11 +1,4 @@
-$menu-color: rgb(103, 103, 103);
-$menu-color_hover: rgb(67, 155, 222);
-$menu-font: "Fira Sans",
-sans-serif;
-$menu-font-size: 1em;
-$h1-font-size: 2.5em;
-$pagination-font-size: 1.5em;
-$pagination-color_hover: rgb(0, 83, 146);
+@import 'variables.scss';
 
 .header-container {
 
@@ -106,5 +99,34 @@ $pagination-color_hover: rgb(0, 83, 146);
             }
         }
     }
+}
 
+.page-2014 {
+    margin-top: 5vh;
+
+    &__icons {
+        display: flex;
+        justify-content: center;
+
+        &__people {
+            margin-right: 5%;
+        }
+
+        &__money {
+            margin-left: 5%;
+        }
+    }
+
+    &__icons-text {
+        display: grid;
+        justify-content: center;
+
+        &__people {
+            margin-right: 5%;
+        }
+
+        &__money {
+            margin-left: 5%;
+        }
+    }
 }

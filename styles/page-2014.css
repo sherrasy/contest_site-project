@@ -120,4 +120,25 @@
   background-color: #005392;
   color: white;
 }
+
+.page-2014 {
+  margin-top: 5vh;
+}
+
+.page-2014__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-2014__icons__people {
+  margin-right: 5%;
+}
+
+.page-2014__icons__money {
+  margin-left: 5%;
+}
 /*# sourceMappingURL=page-2014.css.map */
