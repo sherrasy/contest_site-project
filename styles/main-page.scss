@@ -1,0 +1,54 @@
+@import "variables.scss";
+
+.header-container {
+  @media screen and (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: 0.35fr 0.9fr;
+  }
+
+  display: grid;
+  grid-template-columns: 0.35fr 0.4fr;
+
+  &__logo {
+    grid-column: 1/2;
+    max-height: 6em;
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 2em;
+  }
+
+  &__menu {
+    grid-column: 2/3;
+
+    @media screen and (max-width: 500px) {
+      display: grid;
+      justify-content: flex-end;
+      text-align: center;
+    }
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: $menu-font;
+    font-family: $menu-font;
+
+    &__link1 {
+      text-decoration: none;
+      color: $dark-grey-color;
+    }
+
+    &__link2 {
+      text-decoration: none;
+      color: $dark-grey-color;
+    }
+
+    &__link3 {
+      text-decoration: none;
+      color: $dark-grey-color;
+    }
+
+    a:hover {
+      color: $blue-color;
+    }
+  }
+}
