@@ -132,6 +132,23 @@
             grid-template-rows: 120px 60px;
             justify-content: space-around;
 
+            width: 400px;
+            height: 200px;
+            border-radius: 8px;
+            animation: wipe-enter 2s 1;
+
+            @keyframes wipe-enter {
+                0% {
+                    transform: scale(0, .025);
+                    background-color: $dark-blue-color;
+                }
+
+                50% {
+                    transform: scale(1, .025);
+                    background-color: $dark-blue-color;
+                }
+            }
+
             &__people {
                 grid-column: 1/2;
                 display: grid;
@@ -171,6 +188,23 @@
             grid-template-columns: 150px 150px;
             grid-template-rows: 120px 40px;
             justify-content: space-around;
+
+            width: 400px;
+            height: 200px;
+            border-radius: 8px;
+            animation: wipe-enter 2s 1;
+
+            @keyframes wipe-enter {
+                0% {
+                    transform: scale(0, .025);
+                    background-color: $dark-blue-color;
+                }
+
+                50% {
+                    transform: scale(1, .025);
+                    background-color: $dark-blue-color;
+                }
+            }
 
             &__people {
                 grid-column: 1/2;
@@ -247,7 +281,30 @@
         margin-top: 3vh;
         box-shadow: -10px -14px 36px rgba(78, 55, 55, 0.15);
         max-width: 85%;
-        padding: 3%;
+        padding: 1%;
+        overflow: hidden;
+        animation: 3s anim-lineUp ease-out 1;
+
+        @keyframes anim-lineUp {
+            0% {
+                opacity: 0;
+                transform: translateY(80%);
+            }
+
+            20% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
 
         @media screen and (min-width: 1024px) {
             max-width: 65%;
