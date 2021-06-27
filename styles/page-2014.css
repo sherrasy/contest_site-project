@@ -259,7 +259,100 @@
         grid-template-rows: 120px 40px;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 400px;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    -webkit-animation: wipe-enter 2s 1;
+            animation: wipe-enter 2s 1;
+  }
+  @-webkit-keyframes wipe-enter {
+    0% {
+      -webkit-transform: scale(0, 0.025);
+              transform: scale(0, 0.025);
+      background-color: #005392;
+    }
+    50% {
+      -webkit-transform: scale(1, 0.025);
+              transform: scale(1, 0.025);
+      background-color: #005392;
+    }
+  }
+  @keyframes wipe-enter {
+    0% {
+      -webkit-transform: scale(0, 0.025);
+              transform: scale(0, 0.025);
+      background-color: #005392;
+    }
+    50% {
+      -webkit-transform: scale(1, 0.025);
+              transform: scale(1, 0.025);
+      background-color: #005392;
+    }
+  }
+  .page-2014__icons__people {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .page-2014__icons__money {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 2vh;
+  }
+  .page-2014__icons__people-text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 18%;
+    font-family: "Fira Sans", sans-serif;
+  }
+  .page-2014__icons__money-text {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 9.5%;
+    font-family: "Fira Sans", sans-serif;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-width: 280px) {
+  .page-2014__icons {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 130px 130px;
+        grid-template-columns: 130px 130px;
+    -ms-grid-rows: 120px 40px;
+        grid-template-rows: 120px 40px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 260px;
     height: 200px;
     border-radius: 8px;
     -webkit-animation: wipe-enter 2s 1;
