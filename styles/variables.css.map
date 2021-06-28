@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,UAAU;AAOV,SAAS",
-    "sources": [
-        "variables.scss"
-    ],
-    "names": [],
-    "file": "variables.css"
-}
+{"version":3,"sourceRoot":"","sources":["variables.scss"],"names":[],"mappings":"AAAA;AAOA","file":"variables.css.map"}
