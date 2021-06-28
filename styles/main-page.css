@@ -1,6 +1,13 @@
+@charset "UTF-8";
 /*Colors*/
 /*Fonts*/
+.body {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
 .header-container {
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 0.35fr 0.4fr;
 }
@@ -22,7 +29,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: "Fira Sans", sans-serif;
   font-family: "Fira Sans", sans-serif;
 }
 @media screen and (max-width: 500px) {
@@ -46,4 +52,72 @@
 }
 .header-container__menu a:hover {
   color: #439bde;
+}
+
+.about {
+  padding: 10px;
+}
+.about__heading {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.3em;
+  color: #439bde;
+}
+.about__main-text {
+  line-height: 1.3em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+}
+.about__text {
+  line-height: 1.3em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.members {
+  border: thick double #439bde;
+}
+.members__heading {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.2em;
+  color: #439bde;
+}
+.members__list {
+  line-height: 1.3em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.goals {
+  border: thick double #439bde;
+}
+.goals__heading {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.2em;
+  color: #439bde;
+}
+.goals__list {
+  line-height: 1.3em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+h1,
+h2 {
+  margin: 10px;
+}
+
+ul {
+  padding: 5px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.7em;
+}
+
+li::before {
+  color: #439bde;
+  content: "—";
+  padding-right: 10px;
 }/*# sourceMappingURL=main-page.css.map */
