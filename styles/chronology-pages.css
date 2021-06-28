@@ -56,9 +56,9 @@
   text-align: center;
 }
 .nav #h1 {
-  font-family: "Fira Sans", sans-serif;
-  font-size: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   margin-bottom: 4vh;
+  color: #005392;
 }
 .nav .pagination {
   display: inline-block;
@@ -96,17 +96,17 @@
 }
 .nav .pagination li #active {
   background-color: #005392;
-  color: white;
+  color: #ffffff;
 }
 .nav .pagination li #no-active {
   color: #676767;
 }
 .nav .pagination li #no-active:hover {
-  background-color: white;
+  background-color: #ffffff;
 }
 .nav .pagination li a:hover {
   background-color: #005392;
-  color: white;
+  color: #ffffff;
 }
 
 .page {
@@ -152,7 +152,7 @@
     display: grid;
     justify-content: flex-start;
     margin-left: 12%;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .page__icons__money-text {
     grid-column: 2/3;
@@ -160,7 +160,7 @@
     display: grid;
     justify-content: flex-end;
     margin-right: 7.5%;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -201,7 +201,7 @@
     display: grid;
     justify-content: flex-start;
     margin-left: 18%;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .page__icons__money-text {
     grid-column: 2/3;
@@ -209,7 +209,7 @@
     display: grid;
     justify-content: flex-end;
     margin-right: 9.5%;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
 @media screen and (max-width: 1024px) and (max-width: 280px) {
@@ -250,7 +250,7 @@
     display: grid;
     justify-content: flex-start;
     margin-left: 18%;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .page__icons__money-text {
     grid-column: 2/3;
@@ -258,7 +258,7 @@
     display: grid;
     justify-content: flex-end;
     margin-right: 9.5%;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
 .page__competition {
@@ -266,24 +266,25 @@
 }
 .page__competition__h1 {
   text-align: center;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: bold;
   font-size: 1.3em;
   color: #439bde;
 }
 .page__competition__h1-text {
   margin-top: 2vh;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
 .page__competition__h2 {
   margin-top: 1.4vh;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: bold;
   font-size: 1.2em;
+  color: #439bde;
 }
 .page__competition__h2-text {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
 .page__competition p {
@@ -345,9 +346,10 @@
   }
 }
 .page__speech__s-text {
+  padding: 3px;
   margin-top: 2%;
   display: flex;
   justify-content: flex-end;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }/*# sourceMappingURL=chronology-pages.css.map */

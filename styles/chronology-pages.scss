@@ -62,9 +62,9 @@
   text-align: center;
 
   #h1 {
-    font-family: $menu-font;
-    font-size: $headings-text-font;
+    font-family: $headings-text-font;
     margin-bottom: 4vh;
+    color: $dark-blue-color;
   }
 
   .pagination {
@@ -101,7 +101,7 @@
 
       #active {
         background-color: $dark-blue-color;
-        color: white;
+        color: $white-color;
       }
 
       #no-active {
@@ -109,12 +109,12 @@
       }
 
       #no-active:hover {
-        background-color: white;
+        background-color: $white-color;
       }
 
       a:hover {
         background-color: $dark-blue-color;
-        color: white;
+        color: $white-color;
       }
     }
   }
@@ -168,7 +168,7 @@
         display: grid;
         justify-content: flex-start;
         margin-left: 12%;
-        font-family: $menu-font;
+        font-family: $main-text-font;
       }
 
       &__money-text {
@@ -177,7 +177,7 @@
         display: grid;
         justify-content: flex-end;
         margin-right: 7.5%;
-        font-family: $menu-font;
+        font-family: $main-text-font;
       }
     }
   }
@@ -225,7 +225,7 @@
         display: grid;
         justify-content: flex-start;
         margin-left: 18%;
-        font-family: $menu-font;
+        font-family: $main-text-font;
       }
 
       &__money-text {
@@ -234,7 +234,7 @@
         display: grid;
         justify-content: flex-end;
         margin-right: 9.5%;
-        font-family: $menu-font;
+        font-family: $main-text-font;
       }
     }
 
@@ -281,7 +281,7 @@
           display: grid;
           justify-content: flex-start;
           margin-left: 18%;
-          font-family: $menu-font;
+          font-family: $main-text-font;
         }
 
         &__money-text {
@@ -290,7 +290,7 @@
           display: grid;
           justify-content: flex-end;
           margin-right: 9.5%;
-          font-family: $menu-font;
+          font-family: $main-text-font;
         }
       }
     }
@@ -301,7 +301,7 @@
 
     &__h1 {
       text-align: center;
-      font-family: $menu-font;
+      font-family: $headings-text-font;
       font-weight: bold;
       font-size: 1.3em;
       color: $blue-color;
@@ -309,19 +309,20 @@
 
     &__h1-text {
       margin-top: 2vh;
-      font-family: $menu-font;
+      font-family: $main-text-font;
       font-size: 1em;
     }
 
     &__h2 {
       margin-top: 1.4vh;
-      font-family: $menu-font;
+      font-family: $headings-text-font;
       font-weight: bold;
       font-size: 1.2em;
+      color: $blue-color;
     }
 
     &__h2-text {
-      font-family: $menu-font;
+      font-family: $main-text-font;
       font-size: 1em;
     }
 
@@ -390,10 +391,11 @@
     }
 
     &__s-text {
+      padding: 3px;
       margin-top: 2%;
       display: flex;
       justify-content: flex-end;
-      font-family: $menu-font;
+      font-family: $main-text-font;
       font-weight: bold;
     }
   }
