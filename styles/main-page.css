@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /*Colors*/
 /*Fonts*/
-.body {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-}
-
 .header-container {
   box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.2);
   display: grid;
