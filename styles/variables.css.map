@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["variables.scss"],"names":[],"mappings":"AAAA,SAAA;AAOA,QAAA","file":"variables.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["variables.scss"],"names":[],"mappings":"AAAA;AAOA","file":"variables.css.map"}
+>>>>>>> fea3636e9ea95effac0af8bcbe638f822b695da2
