@@ -101,18 +101,38 @@ h2 {
   margin: 10px;
 }
 
-ul {
+.container {
   padding: 5px;
   margin: 0px;
 }
-
-li {
+.container__element {
   list-style-type: none;
   margin-bottom: 0.7em;
 }
-
-li::before {
+.container__element::before {
   color: #439bde;
   content: "—";
   padding-right: 10px;
+}
+
+.links {
+  padding-left: 10px;
+}
+.links__heading {
+  margin-left: 10px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1em;
+  color: #439bde;
+}
+.links__list {
+  font-family: "Roboto", sans-serif;
+}
+
+.links-list__link {
+  text-decoration: none;
+  color: black !important;
+}
+.links-list__link:hover {
+  text-decoration: underline;
+  color: #439bde !important;
 }/*# sourceMappingURL=main-page.css.map */

@@ -392,12 +392,10 @@
   padding: 5px;
   margin-top: 1.4vh;
 }
-
 .container__element {
   list-style-type: none;
   margin-bottom: 0.7em;
 }
-
 .container__element::before {
   color: #439bde;
   content: "—";

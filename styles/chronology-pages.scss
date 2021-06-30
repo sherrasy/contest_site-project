@@ -432,18 +432,16 @@
 .container {
   padding: 5px;
   margin-top: 1.4vh;
+  &__element {
+    list-style-type: none;
+    margin-bottom: 0.7em;
+  }
+  &__element::before {
+    color: $blue-color;
+    content: "—";
+    padding-right: 10px;
+  }
 }
-.container__element {
-  list-style-type: none;
-  margin-bottom: 0.7em;
-}
-
-.container__element::before {
-  color: $blue-color;
-  content: "—";
-  padding-right: 10px;
-}
-
 .publications-list {
   &__link {
     text-decoration: none;

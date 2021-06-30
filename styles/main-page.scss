@@ -105,16 +105,39 @@ h1,
 h2 {
   margin: 10px;
 }
-ul {
+.container {
   padding: 5px;
   margin: 0px;
+  &__element {
+    list-style-type: none;
+    margin-bottom: 0.7em;
+  }
+  &__element::before {
+    color: $blue-color;
+    content: "—";
+    padding-right: 10px;
+  }
 }
-li {
-  list-style-type: none;
-  margin-bottom: 0.7em;
+.links {
+  padding-left: 10px;
+  &__heading {
+    margin-left: 10px;
+    font-family: $headings-text-font;
+    font-size: 1em;
+    color: $blue-color;
+  }
+  &__list {
+    font-family: $main-text-font;
+  }
 }
-li::before {
-  color: $blue-color;
-  content: "—";
-  padding-right: 10px;
+
+.links-list {
+  &__link {
+    text-decoration: none;
+    color: black !important;
+  }
+  &__link:hover {
+    text-decoration: underline;
+    color: $blue-color !important;
+  }
 }
