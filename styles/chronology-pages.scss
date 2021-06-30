@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .header-container {
-  box-shadow: 1px 1px 7px 0 rgb(0 0 0 / 20%);
+  box-shadow: 1px 1px 7px 0 rgb(0, 0, 0, 20%);
 
   @media screen and (max-width: 1024px) {
     display: grid;
@@ -400,7 +400,6 @@
       font-weight: bold;
     }
   }
-
 }
 .button {
   display: inline-block;
@@ -454,4 +453,3 @@
     color: $blue-color !important;
   }
 }
-
