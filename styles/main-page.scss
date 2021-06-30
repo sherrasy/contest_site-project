@@ -2,6 +2,7 @@
 
 .header-container {
   box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 20%);
+
   @media screen and (max-width: 1024px) {
     display: grid;
     grid-template-columns: 0.35fr 0.9fr;
@@ -55,6 +56,7 @@
 
 .about {
   padding: 10px;
+
   &__heading {
     font-family: $headings-text-font;
     font-size: 1.3em;
@@ -75,8 +77,33 @@
     line-height: 1.5em;
   }
 }
+
 .members {
   border: thick double $blue-color;
+  overflow: hidden;
+  animation: 3s anim-lineUp ease-out 1;
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+
+    20% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
   &__heading {
     font-family: $headings-text-font;
     font-size: 1.2em;
@@ -89,8 +116,33 @@
     font-size: 1em;
   }
 }
+
 .goals {
   border: thick double $blue-color;
+  overflow: hidden;
+  animation: 2s anim-lineUp ease-out 1;
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+
+    20% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
   &__heading {
     font-family: $headings-text-font;
     font-size: 1.2em;
@@ -103,31 +155,38 @@
     font-size: 1em;
   }
 }
+
 h1,
 h2 {
   margin: 10px;
 }
+
 .container {
   padding: 5px;
   margin: 0px;
+
   &__element {
     list-style-type: none;
     margin-bottom: 0.7em;
   }
+
   &__element::before {
     color: $blue-color;
     content: "—";
     padding-right: 10px;
   }
 }
+
 .links {
   padding-left: 10px;
+
   &__heading {
     margin-left: 10px;
     font-family: $headings-text-font;
     font-size: 1em;
     color: $blue-color;
   }
+
   &__list {
     font-family: $main-text-font;
   }
@@ -138,6 +197,7 @@ h2 {
     text-decoration: none;
     color: black !important;
   }
+
   &__link:hover {
     text-decoration: underline;
     color: $blue-color !important;
