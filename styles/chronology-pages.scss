@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: $menu-font;
     font-family: $menu-font;
 
     &__link1 {
@@ -96,7 +95,6 @@
         text-decoration: none;
         font-family: $menu-font;
         border-radius: 21.5px;
-        font-size: $main-text-font;
       }
 
       #active {
