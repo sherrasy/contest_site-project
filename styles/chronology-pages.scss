@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 .header-container {
-  box-shadow: 1px 1px 7px 0 rgb(0, 0, 0, 20%);
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 20%);
 
   @media screen and (max-width: 1024px) {
     display: grid;
@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: $menu-font;
     font-family: $menu-font;
 
     &__link1 {
@@ -96,7 +95,6 @@
         text-decoration: none;
         font-family: $menu-font;
         border-radius: 21.5px;
-        font-size: $main-text-font;
       }
 
       #active {

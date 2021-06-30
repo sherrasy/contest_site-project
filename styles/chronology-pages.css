@@ -24,7 +24,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: "Fira Sans", sans-serif;
   font-family: "Fira Sans", sans-serif;
 }
 @media screen and (max-width: 500px) {
@@ -93,7 +92,6 @@
   text-decoration: none;
   font-family: "Fira Sans", sans-serif;
   border-radius: 21.5px;
-  font-size: "Roboto", sans-serif;
 }
 .nav .pagination li #active {
   background-color: #005392;
