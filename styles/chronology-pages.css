@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Colors*/
 /*Fonts*/
 .header-container {
@@ -373,6 +374,9 @@
   border-color: #005392;
 }
 
+.competition-files {
+  font-family: "Roboto", sans-serif;
+}
 @media screen and (min-width: 768px) {
   .competition-files {
     display: grid;
@@ -382,4 +386,29 @@
     justify-content: center;
     text-align: center;
   }
+}
+
+.container {
+  padding: 5px;
+  margin-top: 1.4vh;
+}
+
+.container__element {
+  list-style-type: none;
+  margin-bottom: 0.7em;
+}
+
+.container__element::before {
+  color: #439bde;
+  content: "—";
+  padding-right: 10px;
+}
+
+.publications-list__link {
+  text-decoration: none;
+  color: black !important;
+}
+.publications-list__link:hover {
+  text-decoration: underline;
+  color: #439bde !important;
 }/*# sourceMappingURL=chronology-pages.css.map */
