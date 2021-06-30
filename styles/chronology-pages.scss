@@ -324,6 +324,7 @@
     &__h2-text {
       font-family: $main-text-font;
       font-size: 1em;
+      line-height: 2em;
     }
 
     p {
@@ -399,6 +400,7 @@
       font-weight: bold;
     }
   }
+
 }
 .button {
   display: inline-block;
@@ -454,3 +456,4 @@
     color: $blue-color !important;
   }
 }
+
