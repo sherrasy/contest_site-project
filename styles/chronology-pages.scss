@@ -400,3 +400,57 @@
     }
   }
 }
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: $white-color;
+  color: $dark-blue-color !important;
+  border: 3px solid $dark-blue-color;
+  border-radius: 18px;
+  font-size: 16px;
+  padding: 3px 16px;
+  transition: all 0.6s ease;
+}
+.button:hover {
+  text-decoration: none;
+  background-color: $dark-blue-color;
+  color: $white-color !important;
+  border-color: $dark-blue-color;
+}
+.competition-files {
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    justify-content: center;
+    text-align: center;
+  }
+  font-family: $main-text-font;
+}
+
+.container {
+  padding: 5px;
+  margin-top: 1.4vh;
+}
+.container__element {
+  list-style-type: none;
+  margin-bottom: 0.7em;
+}
+
+.container__element::before {
+  color: $blue-color;
+  content: "—";
+  padding-right: 10px;
+}
+
+.publications-list {
+  &__link {
+    text-decoration: none;
+    color: black !important;
+  }
+  &__link:hover {
+    text-decoration: underline;
+    color: $blue-color !important;
+  }
+}
