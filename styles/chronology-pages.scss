@@ -322,7 +322,7 @@
     &__h2-text {
       font-family: $main-text-font;
       font-size: 1em;
-      line-height: 2em;
+      line-height: 1.5em;
     }
 
     p {
@@ -448,7 +448,8 @@
   }
 }
 
-.publications-list {
+.publications-list,
+.links-list {
   &__name {
     font-weight: 700;
     text-decoration: underline;
@@ -462,5 +463,14 @@
   &__link:hover {
     text-decoration: underline;
     color: $blue-color !important;
+  }
+}
+
+.contest {
+  &__name {
+    font-weight: 700;
+  }
+  &__text {
+    line-height: 1.8em;
   }
 }
