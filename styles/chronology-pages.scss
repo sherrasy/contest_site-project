@@ -449,6 +449,11 @@
 }
 
 .publications-list {
+  &__name {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
   &__link {
     text-decoration: none;
     color: black !important;
