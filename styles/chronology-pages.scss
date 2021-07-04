@@ -370,7 +370,7 @@
     &__img {
       float: left;
       shape-outside: circle(50%);
-      clip-path: circle(50%);
+      clip-path: circle(48%);
       width: 170px;
       margin: 0px 20px 0px 0px;
     }
@@ -452,7 +452,6 @@
 .links-list {
   &__name {
     font-weight: 700;
-    text-decoration: underline;
   }
 
   &__link {
@@ -470,6 +469,7 @@
   &__name {
     font-weight: 700;
   }
+
   &__text {
     line-height: 1.8em;
   }
