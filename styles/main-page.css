@@ -54,6 +54,12 @@ main {
   background: linear-gradient(to bottom, #feffff 0%, #e8f3f7 75%, #ddf1f9 100%);
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .about {
   grid-area: about;
   padding: 10px;
@@ -79,12 +85,6 @@ main {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   line-height: 1.5em;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .members {
