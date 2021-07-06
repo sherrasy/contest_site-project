@@ -216,6 +216,99 @@
                         </li>
                     </ul>
                 </div>
+                <div class="page__competition__h2">
+                    Фотографии
+                </div>
+                <div class="page__competition__h2-text">
+                    <div class="slideshow-container">
+                        <br>
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 7</div>
+                            <img src="assets/2018img7.JPG" style="width:100%">
+                            <div class="text">Один из грантополучателей — детский туберкулезный санаторий</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 7</div>
+                            <img src="assets/2018img5.JPG" style="width:100%">
+                            <div class="text">Один из грантополучателей — детский туберкулезный санаторий</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 7</div>
+                            <img src="assets/2018img3.JPG" style="width:100%">
+                            <div class="text">Один из грантополучателей — детский туберкулезный санаторий</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 7</div>
+                            <img src="assets/2018img4.JPG" style="width:100%">
+                            <div class="text">Один из грантополучателей — детский туберкулезный санаторий</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 7</div>
+                            <img src="assets/2018img2.JPG" style="width:100%">
+                            <div class="text">Один из грантополучателей — детский туберкулезный санаторий</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">6 / 7</div>
+                            <img src="assets/2018img1.JPG" style="width:100%">
+                            <div class="text">Один из грантополучателей — детский туберкулезный санаторий</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">7 / 7</div>
+                            <img src="assets/2018img6.JPG" style="width:100%">
+                            <div class="text">Один из грантополучателей — детский туберкулезный санаторий</div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        
+                        </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span> 
+                            <span class="dot" onclick="currentSlide(5)"></span> 
+                            <span class="dot" onclick="currentSlide(6)"></span> 
+                            <span class="dot" onclick="currentSlide(7)"></span> 
+                        </div>
+                        
+                        <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                        }
+                        
+                        function currentSlide(n) {
+                            showSlides(slideIndex = n);
+                        }
+                        
+                        function showSlides(n) {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            var dots = document.getElementsByClassName("dot");
+                            if (n > slides.length) {slideIndex = 1}    
+                            if (n < 1) {slideIndex = slides.length}
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                            }
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";  
+                            dots[slideIndex-1].className += " active";
+                        }
+                        </script>
+                </div>
                 <div class="page__competition__h2"> Публикации</div>
                 <div class="page__competition__h2-text">
                     <div class="publications-list">
