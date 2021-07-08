@@ -342,6 +342,110 @@
                             направленный на развитие начального технического образования детей.</li>
                     </ul>
                 </div>
+                <div class="page__competition__h2">Фотографии</div>
+                <div class="page__competition__h2-text">
+                    <div class="slideshow-container goodquality">
+                        <br>
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 8</div>
+                            <img src="assets/2020img1.JPG" style="width:100%" alt="память»">
+                            <div class="text">Увековечение памяти защитников Отечества</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 8</div>
+                            <img src="assets/2020img2.JPG" style="width:100%" alt="бассейн">
+                            <div class="text">Плаваем и оздоравливаемся</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 8</div>
+                            <img src="assets/2020img3.JPG" style="width:100%" alt="дети">
+                            <div class="text">Поддержка проектов для детей</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 8</div>
+                            <img src="assets/2020img4.JPG" style="width:100%" alt="Десткая площадка">
+                            <div class="text">Поддержка проектов для детей</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 8</div>
+                            <img src="assets/2020img5.JPG" style="width:100%" alt="инвалиды">
+                            <div class="text">Грантополучатель - общество инвалидов</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">6 / 8</div>
+                            <img src="assets/2020img6.JPG" style="width:100%" alt="юный механик">
+                            <div class="text">Поддержка проектов для детей</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">7 / 8</div>
+                            <img src="assets/2020img7.JPG" style="width:100%" alt="Ребенок">
+                            <div class="text">Поддержка проектов для детей</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">8 / 8</div>
+                            <img src="assets/2020img8.JPG" style="width:100%" alt="вр-очки">
+                            <div class="text">Поддержка проектов для детей</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    </div>
+
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                        <span class="dot" onclick="currentSlide(8)"></span>
+                    </div>
+
+                    <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                        }
+
+                        function currentSlide(n) {
+                            showSlides(slideIndex = n);
+                        }
+
+                        function showSlides(n) {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            var dots = document.getElementsByClassName("dot");
+                            if (n > slides.length) {
+                                slideIndex = 1
+                            }
+                            if (n < 1) {
+                                slideIndex = slides.length
+                            }
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex - 1].style.display = "block";
+                            dots[slideIndex - 1].className += " active";
+                        }
+
+                    </script>
+                </div>
             </div>
             <div class="page__speech">
                 <img class="page__speech__img" src="assets/ivan_kiselev.jpg" alt="Иван Киселёв фото">
