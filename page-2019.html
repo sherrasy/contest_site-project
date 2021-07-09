@@ -420,8 +420,8 @@
 
 
 
-                        <a class="prev" onclick="plusSlides(-1)">❮</a>
-                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        <a class="prev" onclick="plusSlides__second(-1)">❮</a>
+                        <a class="next" onclick="plusSlides__second(1)">❯</a>
 
                     </div>
                     <br>
@@ -439,21 +439,21 @@
                     </div>
 
                     <script>
-                        var slideIndex = 1;
-                        showSlides(slideIndex);
+                        var slideIndex__second = 1;
+                        showSlides__second(slideIndex__second);
 
-                        function plusSlides(n) {
-                            showSlides(slideIndex += n);
+                        function plusSlides__second(n) {
+                            showSlides__second(slideIndex__second += n);
                         }
 
-                        function currentSlide(n) {
-                            showSlides(slideIndex = n);
+                        function currentSlide__second(n) {
+                            showSlides__second(slideIndex__second = n);
                         }
 
-                        function showSlides(n) {
+                        function showSlides__second(n) {
                             var i;
                             var slides = document.getElementsByClassName("mySlides__second");
-                            var dots = document.getElementsByClassName("dot");
+                            var dot__second = document.getElementsByClassName("dot");
                             if (n > slides.length) {
                                 slideIndex = 1
                             }
@@ -463,11 +463,11 @@
                             for (i = 0; i < slides.length; i++) {
                                 slides[i].style.display = "none";
                             }
-                            for (i = 0; i < dots.length; i++) {
-                                dots[i].className = dots[i].className.replace(" active", "");
+                            for (i = 0; i < dot__second.length; i++) {
+                                dot__second[i].className = dot__second[i].className.replace(" active", "");
                             }
-                            slides[slideIndex - 1].style.display = "block";
-                            dots[slideIndex - 1].className += " active";
+                            slides[slideIndex__second - 1].style.display = "block";
+                            dot__second[slideIndex__second - 1].className += " active";
                         }
 
                     </script>
