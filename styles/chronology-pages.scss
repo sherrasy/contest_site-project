@@ -13,6 +13,11 @@
   grid-template-columns: 0.35fr 0.4fr;
 
   &__logo {
+
+    @media screen and (max-width: 280px) {
+      max-height: 4em;
+    }
+
     grid-column: 1/2;
     max-height: 6em;
     display: flex;
@@ -22,6 +27,11 @@
 
   &__menu {
     grid-column: 2/3;
+
+    @media screen and (max-width: 280px) {
+      margin-right: 25%;
+      font-size: 14px;
+    }
 
     @media screen and (max-width: 500px) {
       display: grid;
@@ -124,6 +134,11 @@ main {
       rgba(254, 255, 255, 1) 0%,
       rgba(232, 243, 247, 1) 75%,
       rgba(221, 241, 249, 1) 100%);
+}
+
+#contacts {
+  height: 90vh;
+  margin-top: 5vh;
 }
 
 .page {
