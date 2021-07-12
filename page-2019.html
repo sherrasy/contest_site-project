@@ -310,39 +310,7 @@
                         <span class="dot" onclick="currentSlide(9)"></span>
                     </div>
 
-                    <script>
-                        var slideIndex = 1;
-                        showSlides(slideIndex);
-
-                        function plusSlides(n) {
-                            showSlides(slideIndex += n);
-                        }
-
-                        function currentSlide(n) {
-                            showSlides(slideIndex = n);
-                        }
-
-                        function showSlides(n) {
-                            var i;
-                            var slides = document.getElementsByClassName("mySlides");
-                            var dots = document.getElementsByClassName("dot");
-                            if (n > slides.length) {
-                                slideIndex = 1
-                            }
-                            if (n < 1) {
-                                slideIndex = slides.length
-                            }
-                            for (i = 0; i < slides.length; i++) {
-                                slides[i].style.display = "none";
-                            }
-                            for (i = 0; i < dots.length; i++) {
-                                dots[i].className = dots[i].className.replace(" active", "");
-                            }
-                            slides[slideIndex - 1].style.display = "block";
-                            dots[slideIndex - 1].className += " active";
-                        }
-
-                    </script>
+                    <script src="carousel.js"></script>
                 </div>
                 <div class="page__competition__h2-text">
                     <div class="slideshow-container goodquality">
@@ -439,39 +407,7 @@
                         <span class="dot" onclick="currentSlide(9)"></span>
                     </div>
 
-                    <script>
-                        var slideIndex__second = 1;
-                        showSlides__second(slideIndex__second);
-
-                        function plusSlides__second(n) {
-                            showSlides__second(slideIndex__second += n);
-                        }
-
-                        function currentSlide__second(n) {
-                            showSlides__second(slideIndex__second = n);
-                        }
-
-                        function showSlides__second(n) {
-                            var i;
-                            var slides = document.getElementsByClassName("mySlides__second");
-                            var dot__second = document.getElementsByClassName("dot");
-                            if (n > slides.length) {
-                                slideIndex__second = 1
-                            }
-                            if (n < 1) {
-                                slideIndex__second = slides.length
-                            }
-                            for (i = 0; i < slides.length; i++) {
-                                slides[i].style.display = "none";
-                            }
-                            for (i = 0; i < dot__second.length; i++) {
-                                dot__second[i].className = dot__second[i].className.replace(" active", "");
-                            }
-                            slides[slideIndex__second - 1].style.display = "block";
-                            dot__second[slideIndex__second - 1].className += " active";
-                        }
-
-                    </script>
+                    <script src="carousel-2.js"></script>
                 </div>
 
 
