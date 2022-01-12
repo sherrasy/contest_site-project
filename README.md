@@ -1,1 +1,2 @@
-# f6_team5_project2
+Contest site project
+https://sherrasy.github.io/contest_site-project/main-page.html
